@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <pattern value="com.algaworks.di.notificacao.NotificadorEmail" />
+    <pattern value="com.algaworks.di.service.EmissaoNotaFiscalService" />
+    <pattern value="com.algaworks.di.service.EmissaoNotaFiscalService" method="EmissaoNotaFiscalService" />
+    <pattern value="com.algaworks.di.service.EmissaoNotaFiscalService" method="emitir" />
+    <pattern value="com.algaworks.di.modelo.Cliente" />
+    <pattern value="com.algaworks.di.modelo.Cliente" method="isAtivo" />
+    <pattern value="com.algaworks.di.modelo.Produto" method="getValorTotal" />
+    <pattern value="com.algaworks.di.modelo.Produto" />
+    <pattern value="com.algaworks.di.modelo.Produto" method="Produto" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
